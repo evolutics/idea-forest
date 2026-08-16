@@ -1,0 +1,6 @@
+serviceAccount:
+  create: true
+  name: service-account-foo
+  annotations:
+    annotation-key-foo: annotation-value-bar
+    annotation-key-baz: annotation-value-qux
