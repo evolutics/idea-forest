@@ -52,22 +52,6 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1792094642,
-        "narHash": "sha256-zp8ToDMnqZcu4o4IH9pdwXFXGp7yLm/M0dEnNWnyd7I=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "fe13242281a67641c0102cdb1087f0ebe586c7df",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
@@ -108,15 +92,17 @@
     "travel-kit": {
       "inputs": {
         "flake-utils": "flake-utils_2",
-        "nixpkgs": "nixpkgs_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1792335212,
-        "narHash": "sha256-VVrq8XgsRjmQ9xl98ZOmJBZbK2MdCmyavbSQTjyHeIg=",
+        "lastModified": 1792349964,
+        "narHash": "sha256-di6cULVffmkgdW4zraQKdFpwW8GfWBAAkT32p2mVaOE=",
         "owner": "evolutics",
         "repo": "travel-kit",
-        "rev": "489371f30fc25e9307a7690ba38181f5ca103ac5",
+        "rev": "2158735dded298a947eb99db4a1c9b8323c6120c",
         "type": "github"
       },
       "original": {
